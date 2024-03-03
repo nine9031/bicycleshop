@@ -20,6 +20,15 @@
     </style>
 
 
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-image: url(https://images.alphacoders.com/152/thumbbig-152441.webp);
+            background-size: cover;
+        }
+    </style>
+
+
 </head>
 
 <body>

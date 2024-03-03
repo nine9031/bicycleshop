@@ -14,7 +14,7 @@ if (isset($_POST['bicycleID']) && isset($_POST['bicyclename']) && isset($_POST['
     echo 'bicycleprice = ' . $bicycleprice;
 
 
-    $sql = "UPDATE bicycle SET bicyclename = :bicyclename bicycleprice = :bicycleprice WHERE bicycleID = :bicycleID";
+    $sql = "UPDATE bicycle SET bicyclename = :bicyclename, bicycleprice = :bicycleprice WHERE bicycleID = :bicycleID";
     $stmt = $conn->prepare($sql);
     
     $stmt->bindParam(':bicycleprice', $_POST['bicycleprice']);

@@ -10,13 +10,25 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>CRUD Customer Information with Enlarge Image</title>
 
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-image: url(https://images3.alphacoders.com/166/thumbbig-166055.webp);
+            background-size: cover;
+            color: #fff;
+            box-shadow: inset 0 0 0 2500px rgba(0, 0, 0, 0.5);
+        }
+        tr {color: #fff;}
+        td {color: #fff;}
+    </style>
+
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12"> <br>
-                <h3>รายชื่อจักรยาน <a href="addbicycle_dropdown.php" class="btn btn-info float-end">+เพิ่มข้อมูล</a> </h3> <br/>
+                <h3>จักรยาน<a href="addbicycle_dropdown.php" class="btn btn-info float-end">+เพิ่มข้อมูล</a> </h3> <br/>
                 <!-- <table class="table table-striped  table-hover table-responsive table-bordered"> -->
                 <table id="employeeTable" class="display table table-striped  table-hover table-responsive table-bordered ">
 
